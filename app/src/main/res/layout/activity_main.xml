@@ -16,37 +16,67 @@
 
     <LinearLayout
         android:layout_width="234dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp">
+        android:layout_height="wrap_content">
 
-        <Button
-            android:layout_width="8dp"
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="А" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Н" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Я" />
+        </android.support.constraint.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="234dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:onClick="Click"
-            android:text="7"/>
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:layout_width="8dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:onClick="Click"
+                android:text="7" />
 
 
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:onClick="Click"
-            android:text="8" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:onClick="Click"
+                android:text="8" />
 
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:onClick="Click"
-            android:text="9" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:onClick="Click"
+                android:text="9" />
 
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:onClick="Click"
-            android:text="/" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:onClick="Click"
+                android:text="/" />
+        </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
