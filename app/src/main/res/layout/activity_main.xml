@@ -122,28 +122,28 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.5"
+            android:layout_weight="1"
             android:onClick="Click"
             android:text="0" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.5"
+            android:layout_weight="1"
             android:onClick="Click"
             android:text="." />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.5"
+            android:layout_weight="1"
             android:onClick="Click"
             android:text="+" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.5"
+            android:layout_weight="1"
             android:onClick="signClick"
             android:text="=" />
     </LinearLayout>
