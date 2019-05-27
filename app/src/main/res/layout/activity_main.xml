@@ -7,11 +7,12 @@
     android:padding="16dp">
 
 
-    <EditText
-        android:id="@+id/numberField"
+    <TextView
+        android:id="@+id/field"
         android:layout_width="229dp"
         android:layout_height="wrap_content"
-        android:inputType="phone" />
+        android:inputType="phone"
+        android:text=""/>
 
     <LinearLayout
         android:layout_width="234dp"
@@ -22,28 +23,29 @@
             android:layout_width="8dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:onClick="onNumberClick"
-            android:text="7" />
+            android:onClick="Click"
+            android:text="7"/>
+
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:onClick="onNumberClick"
+            android:onClick="Click"
             android:text="8" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:onClick="onNumberClick"
+            android:onClick="Click"
             android:text="9" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:onClick="onOperationClick"
+            android:onClick="Click"
             android:text="/" />
     </LinearLayout>
 
@@ -55,28 +57,28 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:onClick="onNumberClick"
+            android:onClick="Click"
             android:text="4" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:onClick="onNumberClick"
+            android:onClick="Click"
             android:text="5" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:onClick="onNumberClick"
+            android:onClick="Click"
             android:text="6" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:onClick="onOperationClick"
+            android:onClick="Click"
             android:text="*" />
     </LinearLayout>
 
@@ -88,28 +90,28 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:onClick="onNumberClick"
+            android:onClick="Click"
             android:text="1" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:onClick="onNumberClick"
+            android:onClick="Click"
             android:text="2" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:onClick="onNumberClick"
+            android:onClick="Click"
             android:text="3" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:onClick="onOperationClick"
+            android:onClick="Click"
             android:text="-" />
     </LinearLayout>
 
@@ -121,28 +123,28 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:onClick="onNumberClick"
+            android:onClick="Click"
             android:text="0" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:onClick="onNumberClick"
-            android:text="," />
+            android:onClick="Click"
+            android:text="." />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:onClick="onOperationClick"
+            android:onClick="Click"
             android:text="+" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:onClick="onOperationClick"
+            android:onClick="signClick"
             android:text="=" />
     </LinearLayout>
 </LinearLayout>
