@@ -63,4 +63,11 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+
+    public void clearClick(View view) {
+        field.setText("");
+        exText = "";
+        n1 = "";
+        n2 = "";
+    }
 }
