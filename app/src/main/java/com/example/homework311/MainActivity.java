@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     public void engineeringClick(View view) {
         LinearLayout engineering = findViewById(R.id.engineering);
         engineering.setVisibility(View.VISIBLE);
-    }
+    } 
 
     public void signClick(View view) {
         double num1 = 0;
