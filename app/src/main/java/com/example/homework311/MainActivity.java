@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 
@@ -15,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     String n2 = "";
     char sign;
     double answer;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +28,11 @@ public class MainActivity extends AppCompatActivity {
         Button button = (Button)view;
         field.setText(field.getText().toString() + button.getText().toString());
         exText += button.getText().toString();
+    }
+
+    public void engineeringClick(View view) {
+        LinearLayout engineering = findViewById(R.id.engineering);
+        engineering.setVisibility(View.VISIBLE);
     }
 
     public void signClick(View view) {
